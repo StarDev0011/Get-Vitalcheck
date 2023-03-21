@@ -1,0 +1,111 @@
+.request_form_body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+.request_form_left {
+    width: 40%;
+    background-image: url('../Images/form/back.png');
+    background-position: top right;
+}
+.request_form {
+    width: 60%;
+    padding-top: 8rem;
+    padding-bottom: 5%;
+    padding-left: 2rem;
+    padding-right: 10rem;
+}
+p.form_label {
+    font-size: 35px;
+    color: #1d1d1d;
+    font-family: 'merriweatherbold', serif;
+    font-weight: 500;
+}
+p.form_desc {
+    font-size: 22px;
+    color: #1d1d1d;
+    font-family: 'montserratregular', sans-serif;
+    line-height: 1.7;
+}
+p.radio_label {
+    font-size: 17px;
+    font-family: 'montserratregular', sans-serif;
+}
+.radio-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+.single_role {
+    margin-right: 1.5rem;
+    font-size: 15px;
+    font-family: 'montserratregular', sans-serif;
+}
+.form_inputs {
+    display: flex;
+    flex-wrap: wrap;
+}
+.form_left, .form_right {
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.form_inputs input, .form_inputs textarea {
+    min-height: 2.8rem;
+    line-height: 2.8rem;
+    margin-top: 0.4rem;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0ch;
+    background: #f3f5fb;
+    border-radius: 0%;
+    border-width: 0;
+    border-color: #dfe2e6;
+    box-shadow: 0 1px 0 0 rgb(0 0 0 / 8%) inset;
+    padding: 0rem 0.8rem;
+}
+input.send {
+    background: #f15a22;
+    font-size: 15px;
+    border-color: transparent;
+    border-radius: 0.3rem;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.2;
+    padding: 1.2em 2em;
+    margin-top: 20px;
+    cursor: pointer;
+}
+input.send:hover {
+    background: #2d3390;
+}
+@media only screen and (max-width: 767px) {
+    .request_form_body {
+        display: block;
+    }
+    .request_form {
+        width: 100%;
+        padding-right: 2rem;
+    }
+    p.form_label {
+        font-size: 28px;
+    }
+    p.form_desc {
+        font-size: 20px;
+    }
+    .radio-buttons {
+        display: block;
+    }
+    .single_role {
+        margin-bottom: 0.5rem;
+    }
+    .form_inputs {
+        display: block;
+    }
+    .form_left, .form_right {
+        width: 98%;
+    }
+}

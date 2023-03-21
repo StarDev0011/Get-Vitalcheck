@@ -1,0 +1,92 @@
+.testimonial {
+    background: #d4ebfd;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 6em 1.5em;
+    text-align: center;
+}
+.clients {
+    background:#f15a22;
+    color: #ffffff;
+    padding-top: 4rem;
+    padding-bottom: 200px;
+    text-align: center;
+}
+.testimonial_label, p.client_label, .include_label {
+    font-size: 17px;
+    font-family: 'montserratregular', sans-serif;
+    line-height: 1.2;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+p.nationwide {
+    font-size: 35px;
+    font-family: 'merriweather', serif;
+}
+.description {
+    font-size: 26px;
+    line-height: 1.8;
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+p.client_desc {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 26px;
+    font-family: 'montserratregular', sans-serif;
+    line-height: 1.4;
+}
+p.post_desc {
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 26px;
+    line-height: 1.8;
+    font-weight: 400;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+    font-family: 'merriweather', serif;
+}
+p.client_role {
+    font-size: 17px;
+    font-weight: 900;
+    font-family: 'montserratregular', sans-serif;
+    color: #000000;
+}
+p.client_name {
+    font-size: 17px;
+    font-family: 'montserratregular', sans-serif;
+    color: #000000;    
+}
+
+@media only screen and (max-width: 767px) {
+    .clients {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .testimonial {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 2em 1.5em;
+    }
+    p.post_desc {
+        padding: 0%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 20px;
+    }
+    p.client_role, p.client_name {
+        font-size: 16px;
+    }
+    p.client_desc {
+        width: 100%;
+        font-size: 22px;
+    }
+    p.nationwide {
+        font-size: 28px;
+    }
+}

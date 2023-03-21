@@ -1,0 +1,106 @@
+.benefits_body, .how_it_works_body {
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+.benefits_description, .how_description {
+    text-align: center;
+}
+.benefits_description h2, .how_description h2 {
+    font-size: 35px;
+    color: #1d1d1d;
+    font-family: 'merriweatherbold', serif;
+    padding-left: 15px;
+    padding-top: 1rem;
+    padding-right: 15px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+}
+.benefits_description h5, .how_description h5 {
+    font-size: 22px;
+    font-family: 'montserratregular', sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.how_description h6 {
+    font-family: 'montserratregular', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+.benefits_items {
+    display: flex;
+    margin: 0 -4rem;
+}
+.benefit_item {
+    width: 25%;
+    padding: 70px 50px 70px 40px;
+    border: 1px solid #e4e4e4;
+}
+.item_title {
+    display: flex;
+    margin-bottom: 35px;
+}
+p.benefit_title {
+    font-size: 22px;
+    margin: 0 0 0 20px;
+    color: #2d3390 ;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.item_desc {
+    font-size: 17px;
+    color: #000000;
+    font-family: 'montserratregular', sans-serif;
+    letter-spacing: -0.5;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.spacer_doctors {
+    height: 75px;
+}
+@media only screen and (max-width: 1440px) {
+    .benefits_items {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .benefits_body {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .benefits_description h2, .benefits_description h5, .how_description h2, .how_description h5 {
+        width: 100%;
+    }
+    .benefits_description h2, .how_description h2 {
+        font-size: 28px;
+    }
+    .benefits_description h5, p.benefit_title, .how_description h5 {
+        font-size: 20px;
+    }
+    .benefits_items {
+        display: block;
+        margin: 0;
+    }
+    .benefit_item {
+        width: 100%;
+    }
+    .employ, .doctors_body {
+        text-align: center;
+    }
+    .spacer_doctors {
+        display: none;
+    }
+}

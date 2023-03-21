@@ -1,0 +1,146 @@
+.vaccine_mandate {
+    display: flex;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-top: 6rem;
+}
+.mandate_our_services, .mandate_details {
+    background: #f7f7f7;    
+}
+.services_main {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.trusted, .mandate_details_body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.mandate_detail_items {
+    margin-top: 20px;
+    display: flex;
+}
+.services_main h1, .trusted h1, .mandate_details_body h1 {
+    font-size: 40px;
+    color: #2E3390;
+    font-family: 'merriweatherbold', serif;
+    text-align: center;
+}
+.vaccine_text {
+    width: 50%;
+}
+.vaccine_img {
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.mandate h2 {
+    font-size: 35px;
+    font-family: 'merriweatherbold', serif;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+    color: #000000;
+}
+.vaccine_text p {
+    font-family: 'montserratregular', sans-serif;
+    font-size: 24px;
+    line-height: 1.3;
+    font-weight: 400;
+    color: #000000;
+}
+.single_service {
+    display: flex;
+    margin-bottom: 30px;
+    background: #ffffff;
+    padding: 2rem 4rem;
+}
+.single_service_img {
+    width: 10%;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.single_sevice_desc {
+    width: 90%;
+    font-size: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.three_trusted {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+.single_trusted_img {
+    width: 33.33%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.detail_items_txt {
+    width: 65%;
+}
+.detail_items_img {
+    width: 35%;
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.mandate_details_summary, .single_detail h3, .single_detail p {
+    font-size: 24px;
+    color: #4B4B4B;
+}
+@media only screen and (max-width: 767px) {
+    .vaccine_mandate {
+        display: block;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 4rem;
+    }
+    .vaccine_text {
+        width: 100%;
+    }
+    .services_main {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .single_service {
+        padding: 2rem;
+        display: block;
+    }
+    .three_trusted {
+        display: block;
+        margin-top: 0%;
+    }
+    .single_trusted_img {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .mandate_details_body {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .mandate_detail_items {
+        display: block;
+    }
+    .detail_items_txt, .detail_items_img, .single_service_img, .single_sevice_desc {
+        width: 100%;
+    }
+    .vaccine_text p, .single_sevice_desc, .mandate_details_summary, .single_detail h3, .single_detail p {
+        font-size: 18px;
+    }
+    .mandate h2 {
+        font-size: 28px;
+    }
+    .services_main h1, .trusted h1, .mandate_details_body h1 {
+        font-size: 32px;
+    }
+    .single_service_img {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
